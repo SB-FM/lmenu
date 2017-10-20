@@ -1,0 +1,37 @@
+  .left-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 68px;
+    margin-top: 1px;
+    margin-right:5px;
+    border-radius: 0 35px 35px 0;
+    background-color: #d8d8d8;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    
+  }
+  
+  .left-menu-item:hover {
+    background: #b7b7b7;
+  }
+
+  .left-menu-item-label{
+    padding-left:5px;
+    display: inline-block;
+    box-sizing: border-box;
+    flex:80;
+
+}
+  .left-menu-item-value{
+    box-sizing: border-box;
+    padding-right: 10px;
+    flex:20;
+    text-align: center;
+    text-decoration: underline;
+
+  }
