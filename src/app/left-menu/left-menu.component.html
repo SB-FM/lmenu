@@ -1,0 +1,12 @@
+<div class='left-menu-container'>
+  <div class='left-menu-toggle-container'>
+    <span class="left-menu-toggle-button" (click)="onToggle($event)">
+      <</span>
+        <span class="left-menu-toggle-bar" [class.toggled-off]="toggled" [class.toggled-on]="!toggled"></span>
+  </div>
+
+  <div class='left-menu' [class.toggled-off]="toggled" [class.toggled-on]="!toggled">
+    <h4 class="left-menu-items-header">Account actions</h4>
+    <app-left-menu-item *ngFor="let leftMenuItem of leftMenuItems" [menuItem]="leftMenuItem"></app-left-menu-item>
+  </div>
+</div>
